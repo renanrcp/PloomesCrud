@@ -26,7 +26,7 @@ A API Fica no path [localhost:5071/persons](http://localhost:5071/persons)
 
 ### Produção
 
-Para acessar o swagger basta accessar a url [ploomescrud.azurewebsites.net](https://ploomescrud.azurewebsites.net/)
+Para acessar o swagger basta accessar a url [ploomescrud.azurewebsites.net/swagger/index.html](https://ploomescrud.azurewebsites.net/swagger/index.html)
 
 A API Fica no path [ploomescrud.azurewebsites.net/persons](https://ploomescrud.azurewebsites.net/persons)
 

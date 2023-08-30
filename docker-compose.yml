@@ -1,0 +1,14 @@
+services:
+  sql_server2022:
+    image: "mcr.microsoft.com/mssql/server:2022-latest"
+    ports:
+      - "1433:1433"
+    environment:
+      - ACCEPT_EULA=y
+      - SA_PASSWORD=A&VeryComplex123Password
+  ploomes_crud:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "5071:80"
